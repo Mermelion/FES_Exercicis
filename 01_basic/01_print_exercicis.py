@@ -12,7 +12,7 @@ print("Nicola Meloni Martínez")
 # Imprimeix les paraules "Python", "és", "divertit" separades per un guió (-)
 # Pista: utilitza el paràmetre 'sep' de print()
 
-print("Python", "és", "divertit")
+print("Python", "és", "divertit", sep="-")
 
 # Exercici 3
 # Imprimeix el resultat de la suma 15 + 27

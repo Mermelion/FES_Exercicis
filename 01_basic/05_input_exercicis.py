@@ -16,7 +16,7 @@ print(f"El tècnic {nom_tecnic} està instal·lant la xarxa {nom_xarxa}.")
 # Exercici 2
 # Demana la longitud d'un enllaç de fibra en quilòmetres i la velocitat de transmissió
 # en Gbps. Mostra quants segons caldrien per transmetre 1 GB de dades.
-# Suposa que 1 GB = 8 Gb i que la velocitat es manté constant.
+# Suposa que 1 GB = 8 s/Gb i que la velocitat es manté constant.
 
 print("\nIntrodueix la longitud de l'enllaç de fibra i la velocitat de transmissió.")
 longitud_km = float(input("Longitud de l'enllaç (km): "))
