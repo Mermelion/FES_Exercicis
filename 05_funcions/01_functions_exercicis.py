@@ -138,3 +138,4 @@ print(f"El mínim és {minim} i el màxim és {maxim}.")
 # Exercici 10: Palíndrom
 # Crea una funció es_palindrom(text) que retorni True si una paraula es llegeix igual d'esquerra a dreta
 # que de dreta a esquerra (ignorant majúscules i minúscules), i False en cas contrari.
+
