@@ -108,3 +108,33 @@ def num_max(numbers = [15, 5, 25, 10, 20]):
     return nummax
 
 print(factorial(), num_max(), sep=", ")
+
+# Exercici 8: Comptar vocals
+# Crea una funció comptar_vocals(text) que rebi una cadena de text i retorni quantes vocals
+# (a, e, i, o, u) conté. Ha de funcionar tant amb majúscules com amb minúscules.
+
+def comptar_vocals(text):
+    return sum(text.lower().count(vocal) for vocal in "aeiou")
+
+print(comptar_vocals(input("Introdueix el text per comptar les vocals: ")))
+
+# Exercici 9: Retorn múltiple (mínim i màxim)
+# Crea una funció minim_i_maxim(numeros) que rebi una llista de números i retorni tant el valor
+# mínim com el valor màxim alhora. Desempaqueta el resultat en dues variables.
+
+def minim_i_maxim(numeros):
+    number = numeros[0]
+    for num in numeros:
+        if number < num:
+            max = num
+        else:
+            min = num
+    return min, max
+
+minim, maxim = minim_i_maxim([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -1, -2, -3, -4, -5, -6, -7, -8, -9, -10])
+
+print(f"El mínim és {minim} i el màxim és {maxim}.")
+
+# Exercici 10: Palíndrom
+# Crea una funció es_palindrom(text) que retorni True si una paraula es llegeix igual d'esquerra a dreta
+# que de dreta a esquerra (ignorant majúscules i minúscules), i False en cas contrari.
